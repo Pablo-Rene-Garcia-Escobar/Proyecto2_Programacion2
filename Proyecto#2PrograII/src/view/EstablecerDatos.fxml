@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: skyBlue;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.EstablecerDatos">
+   <children>
+      <Label layoutX="132.0" text="¡Bienvenido al estacionamiento!">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="66.0" text="Establezca la cantidad de estacionamientos que hay para las motos:" />
+      <Label layoutX="14.0" layoutY="118.0" text="Establezca la cantidad de estacionamientos que hay para los carros:" />
+      <Label layoutX="14.0" layoutY="175.0" text="Establezca la cantidad de estacionamientos que hay para los camiones:" />
+      <Label layoutX="14.0" layoutY="235.0" text="Establezca el precio de la tarifa por segundo:" />
+      <TextField fx:id="txtMotos" layoutX="419.0" layoutY="62.0" prefHeight="25.0" prefWidth="129.0" />
+      <TextField fx:id="txtCarros" layoutX="419.0" layoutY="114.0" prefHeight="25.0" prefWidth="129.0" />
+      <TextField fx:id="txtCamiones" layoutX="419.0" layoutY="171.0" prefHeight="25.0" prefWidth="129.0" />
+      <TextField fx:id="txtTarifa" layoutX="419.0" layoutY="231.0" prefHeight="25.0" prefWidth="129.0" />
+      <Button fx:id="cerrarPestania" layoutX="513.0" layoutY="366.0" mnemonicParsing="false" onAction="#MenuPrincipal" style="-fx-background-color: skyBlue;" text="Continuar">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="258.0" layoutY="296.0" mnemonicParsing="false" onAction="#grabarDatos" prefHeight="38.0" prefWidth="85.0" text="Grabar">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtMensaje" alignment="CENTER" layoutX="226.0" layoutY="335.0" style="-fx-background-color: skyBlue;" />
+   </children>
+</Pane>

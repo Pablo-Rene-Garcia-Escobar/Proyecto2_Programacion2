@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: skyBlue;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.IngresarVehiculo">
+   <children>
+      <Label layoutX="176.0" layoutY="120.0" text="Ingrese su numero de placa:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPlaca" alignment="CENTER" layoutX="226.0" layoutY="188.0" />
+      <Button layoutX="265.0" layoutY="260.0" mnemonicParsing="false" onAction="#grabarPlaca" text="Grabar">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="volver" mnemonicParsing="false" onAction="#volverMenu" style="-fx-background-color: skyBlue;" text="Volver" textFill="#c61f1f">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtMensaje" alignment="CENTER" layoutX="170.0" layoutY="298.0" prefHeight="25.0" prefWidth="259.0" style="-fx-background-color: skyBLue;" />
+      <Label layoutX="6.0" layoutY="360.0" text="Nota: Los camiones solo pueden permanecer 1 periodo de 60 seg. en el estacionamiento. Si excede los 60 seg," />
+      <Label layoutX="6.0" layoutY="378.0" text="se le cobrara un recargo de Q5.00 por cada periodo adicional que permanezca dentro del estacionamiento." />
+   </children>
+</Pane>

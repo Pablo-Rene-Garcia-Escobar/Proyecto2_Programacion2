@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: skyBlue;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RetirarVehiculo">
+   <children>
+      <Button layoutX="261.0" layoutY="321.0" mnemonicParsing="false" onAction="#grabarPlaca" text="Grabar">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <TextField fx:id="txtPlaca" alignment="CENTER" layoutX="222.0" layoutY="135.0" />
+      <Label layoutX="123.0" layoutY="70.0" text="Ingrese la placa para retirar su vehiculo:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="volver" layoutY="-1.0" mnemonicParsing="false" onAction="#volverMenu" style="-fx-background-color: skyBlue;" text="Volver" textFill="#c61a1a">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <TextField fx:id="txtMensaje" alignment="CENTER" layoutX="222.0" layoutY="359.0" style="-fx-background-color: skyBLue;" />
+      <Label layoutX="235.0" layoutY="193.0" text="Ingrese su NIT:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNit" alignment="CENTER" layoutX="221.0" layoutY="253.0" />
+   </children>
+</Pane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: skyBlue;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MenuPrincipal">
+   <children>
+      <Button fx:id="salirSistema1" layoutX="229.0" layoutY="144.0" mnemonicParsing="false" onAction="#ingresarVehiculo" text="Ingresar vehiculo">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="salirSistema2" layoutX="233.0" layoutY="235.0" mnemonicParsing="false" onAction="#retirarVehiculo" text="Retirar vehiculo">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="salirSistema3" layoutX="535.0" layoutY="361.0" mnemonicParsing="false" onAction="#salir" prefHeight="25.0" prefWidth="51.0" text="Salir" textFill="RED" />
+      <Label layoutX="176.0" layoutY="23.0" style="-fx-background-color: orange;" text="¿Que desea hacer?">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
